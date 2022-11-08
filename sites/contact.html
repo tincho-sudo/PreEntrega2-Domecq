@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lol champion gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body class="backgr">
+    <header id="headerHeaven">
+      <nav class="header__nav">
+        <ul class="header__nav--format">
+          <li class="header__nav__ul__li__a">
+            <a href="../index.html" class="header__nav__ul__li__a--linkFormat"
+              >Home</a
+            >
+          </li>
+          <li class="header__nav__ul__li__a">
+            <a href="./gallery.html" class="header__nav__ul__li__a--linkFormat"
+              >Gallery</a
+            >
+          </li>
+          <li class="header__nav__ul__li__a">
+            <a href="./about_us.html" class="header__nav__ul__li__a--linkFormat"
+              >About us</a
+            >
+          </li>
+          <li class="header__nav__ul__li__a">
+            <a href="./contact.html" class="header__nav__ul__li__a--linkFormat"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section__form__container">
+      <form class="section__form--format">
+        <h1 class="t--format">Contacto</h1>
+        <fieldset class="section__form__fieldSet">
+          <legend>Informacion Personal</legend>
+          <section class="section__form__fieldSet__div">
+            <span class="section__form__fieldSet__div__span">Sexo</span>
+            <article class="section__form__fieldSet__div__article">
+              <input type="radio" name="sexo" id="hombre" /><span>Hombre</span>
+              <input type="radio" name="sexo" id="mujer" /><span>Mujer</span>
+              <input type="radio" name="sexo" id="otro" /><span>Otro</span>
+            </article>
+          </section>
+          <section class="section__form__fieldSet__div">
+            <span class="section__form__fieldSet__div__span">Nombre:</span>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+            <span class="section__form__fieldSet__div__span">Apellido:</span>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Apellido"
+            />
+            <span class="section__form__fieldSet__div__span">Email:</span>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </section>
+          <section class="section__form__fieldSet__div">
+            <span class="section__form__fieldSet__div__span"
+              >Caja de comentarios:</span
+            >
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              cols="30"
+              rows="10"
+              class="section__form__fieldSet__div__textArea inputTypeBorder"
+            ></textarea>
+          </section>
+          <section class="section__form__fieldSet__div">
+            <span class="section__form__fieldSet__div__span"
+              >Por ultimo, como fue tu dia?:</span
+            >
+            <select name="talleSelect" id="talleSelect">
+              <option value="Increible">Increible</option>
+              <option value="Bueno">Bueno</option>
+              <option value="Meh">Meh</option>
+              <option value="Malo">Malo</option>
+              <option value="MurioHagrid">Murio Hagrid</option>
+            </select>
+          </section>
+        </fieldset>
+        <section class="section__form__section">
+          <input
+            type="submit"
+            value="Enviar"
+            class="section__form__section__button header__nav__ul__li__a--linkFormat"
+          />
+        </section>
+      </form>
+    </section>
+
+    <footer class="footer--format">
+      <a href="#headerHeaven" class="footer__a--linkFormat">Go to heaven</a>
+    </footer>
+  </body>
+</html>

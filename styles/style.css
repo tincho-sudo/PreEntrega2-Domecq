@@ -11,15 +11,18 @@
 .header__nav--format {
   display: flex;
   justify-content: space-evenly;
-  background-color: #333;
+  background-color: #212529;
 }
 
 .footer--format {
-  background-color: #333;
+  background-color: #212529;
   position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
+}
+
+@media (min-width: 768px) {
 }
 
 .header__nav__ul__li__a {
@@ -30,7 +33,7 @@
 .header__nav__ul__li__a--linkFormat {
   text-decoration: none;
   color: white;
-  transition: font-size .2s;
+  transition: font-size 0.2s;
 }
 
 .header__nav__ul__li__a--linkFormat:hover {
@@ -173,7 +176,6 @@
 .articleSectionPadding {
   padding: 15px;
 }
-
 
 .div__article--media {
   color: white;

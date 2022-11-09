@@ -67,6 +67,7 @@
 
 .t--format--center {
   text-align: center;
+  display: block;
 }
 
 .section__form--format {
@@ -171,29 +172,17 @@
 /* ENTIENDO QUE POR ESTAR OBLIGADO A SEGUIR EL MODELO BEM (O ALGO ASI), TENGO QUE DUPLICAR EL SNIPPET DE CSS (PARA NO USAR EL ANTERIOR QUE TIENE EL NOMBRE DE HOME(INDEX), SI NO FUESE NECESARIO ENTONCES PODRIA SEGUIR REUTILIZANDO QUE ES MI IDEA ORIGINAL */
 .div__article {
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
   font-size: large;
 }
 
 @media screen and (max-width: 995px) {
-  .div__article {
-    color: white;
-    display: inline-block;
-    font-size: large;
-    margin-right: 30px;
-    margin-left: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+}
+@media all and (max-width: 600px) {
+  iframe {
+    width: 300px;
+    height: 175px;
   }
 }
-
 .articleSectionPadding {
   padding: 15px;
 }
@@ -214,13 +203,9 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.div__article iframe {
-  margin: 0px 10px 20px 10px;
-}
-
 .backgr {
   background-image: url("../resources/homebg.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
   font-family: "Acme", sans-serif;

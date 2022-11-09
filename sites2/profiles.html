@@ -23,11 +23,8 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body class="backgr">
-    <header class="px-0 container-fluid">
-      <nav
-        class="navbar py-0 header__nav__size navbar-fixed-top navbar-expand-md colorNav navbar-dark"
-      >
-        <div class="container-fluid">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <img
             class="navbar-brand"
             src="../resources/logo.png"
@@ -48,37 +45,36 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav row-cols-auto text-center">
-              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-4">
                 <a
-                  class="nav-link header__nav__ul__li__a--linkFormat"
+                  class="nav-link header__nav__ul__li__a--linkFormat "
+                  aria-current="page"
                   href="../index2.html"
                   >Home</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-4">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./gallery.html"
                   >Gallery</a
                 >
               </li>
-
-              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-4">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat active"
-                  aria-current="page"
                   href="./profiles.html"
                   >Profiles</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-4">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./about_us.html"
                   >About us</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-4">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./contact.html"
@@ -87,10 +83,8 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
-
+        </nav>
+      </header>
     <main>
       <!-- Spinner -->
       <div class="preloader">

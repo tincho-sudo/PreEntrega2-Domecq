@@ -14,6 +14,16 @@
   background-color: #212529;
 }
 
+.colorNav{
+  background-color: #212529;
+}
+
+.center-nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .footer--format {
   background-color: #212529;
   position: fixed;
@@ -22,8 +32,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-}
 
 .header__nav__ul__li__a {
   padding: 30px 0px;
@@ -32,7 +40,6 @@
 
 .header__nav__ul__li__a--linkFormat {
   text-decoration: none;
-  color: white;
   transition: font-size 0.2s;
 }
 
@@ -46,10 +53,12 @@
 .footer__a--linkFormat {
   text-decoration: none;
   color: white;
+  transition: font-size 0.2s;
 }
 
 .footer__a--linkFormat:hover {
   font-weight: bolder;
+  color:white;
   font-size: larger;
 }
 

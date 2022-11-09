@@ -1,0 +1,108 @@
+commit 1829a6b2f1d357c7a9120dacf7438c4a7cd7056b
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:35:10 2022 -0300
+
+    Update README.md
+
+commit 247d11aa9d07b4e7339b3543767614d131f7546f
+Merge: cba6af9 8b057ef
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 20:32:05 2022 -0300
+
+    Merge branch 'main' of https://github.com/tincho-sudo/PreEntrega2-Domecq
+
+commit cba6af985568ac0a5ae7f2856f8eb76e8248bd92
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 20:31:00 2022 -0300
+
+    index redirect bugfix, new wireframe images, edited old wireframe because of more pages needed
+
+commit 8b057ef718e57460939b12ce73f5ed272ee14c1c
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:22:13 2022 -0300
+
+    Update README.md
+
+commit 0495620f4cd3de0ba1c95eb755ff3da401d4116e
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:21:06 2022 -0300
+
+    Rename sites2/profiles.html to sites/profiles.html
+
+commit fa5d0feb44f09bd0fe94b06b689b73907dec3f60
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:20:46 2022 -0300
+
+    Rename sites2/gallery.html to sites/gallery.html
+
+commit aa0c6a3aafbb3a6de8997e1606191e34bc07ffff
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:20:25 2022 -0300
+
+    Rename sites2/contact.html to sites/contact.html
+
+commit f800aa8a18b18aa0e9bb7a12723ca546bed4055c
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:20:06 2022 -0300
+
+    Rename sites2/about_us.html to sites/about_us.html
+
+commit 63ad4c705bb30a1cfcb46e87df6c587397dfb669
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:18:09 2022 -0300
+
+    Delete sites directory
+
+commit 10d96ff4d34bf1fcf8833a2bfc37b9e5671dab96
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 20:10:04 2022 -0300
+
+    removed some old bases and folders, contact done, new submit buttons style with color transition on hover
+
+commit 908ef61f72d2bf51fda140d011d3fed301eb8b6d
+Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
+Date:   Wed Nov 9 20:09:11 2022 -0300
+
+    Create README.md
+
+commit 056c3db4434406112f2458bf8271caf1e1f320bd
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 20:05:30 2022 -0300
+
+    removed some old bases and folders, contact done, new submit buttons style with color transition on hover
+
+commit 34884a75abfd874e4e36b7bf9ff637468060e374
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 19:43:20 2022 -0300
+
+    removed some old bases, new search script for profiles, profiles done
+
+commit ea5170d4db005fbe3e37781b85f14a54490a063c
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 18:26:28 2022 -0300
+
+    reformatted all headers, about_us done, gallery done
+
+commit f0c0b35cdc25666c5e0f06454c6b151d8237e017
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 05:53:11 2022 -0300
+
+    page loading spinner and landing page content adapted
+
+commit e2b37107f4813c3f326b87ed5770bbddfb684e01
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Tue Nov 8 21:26:33 2022 -0300
+
+    working header and footer
+
+commit 246e2c1acdecc331284ec392cbea6e392e312198
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Tue Nov 8 18:47:41 2022 -0300
+
+    header 75%, footer 100%
+
+commit a14aaacc715deda6a06c49f479f6e057277b6eb5
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Tue Nov 8 13:48:59 2022 -0300
+
+    first commit, adapting code to bootstrap

@@ -5,3 +5,5 @@ Segunda Pre-Entrega, necesitaba codear algo de js asi que termine agregando una 
 Esto de tener que adaptar el html viejo conforme nos van habilitando herramientas no me gusta nada, fomenta que se haga muy caotico todo
 
 Github no estaba tomando un rename de carpeta, asi que tuve que moverlas a mano desde la pagina, nada mas raro aparte de eso
+
+El logo (LCG) corresponde a "Lol Champion Gallery"

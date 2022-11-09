@@ -130,13 +130,19 @@
 }
 
 .section__form__section__button {
-  width: 200px;
+  width: auto;
   border: 4px solid #194641;
   border-radius: 8px;
   color: #fff;
   background-color: #21726a;
   transition: all 1s ease;
-  margin-top: 30px;
+  font-size: large;
+}
+
+.section__form__section__button:hover {
+  background-color: #00ad9c;
+  border-color:  #358f84;
+  transition: all 1s ease;
   font-size: large;
 }
 

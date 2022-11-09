@@ -23,12 +23,18 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body class="backgr">
-    <header class="container-fluid">
+    <header class="px-0 container-fluid">
       <nav
         class="navbar py-0 header__nav__size navbar-fixed-top navbar-expand-md colorNav navbar-dark"
       >
         <div class="container-fluid">
-          <img class="navbar-brand" src="../resources/logo.png" width="100" height="75" alt="" />
+          <img
+            class="navbar-brand"
+            src="../resources/logo.png"
+            width="100"
+            height="75"
+            alt=""
+          />
           <button
             class="navbar-toggler"
             type="button"
@@ -42,14 +48,14 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav row-cols-auto text-center">
-              <li class="nav-item header__nav__ul__li__a col-sm-2 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="../index2.html"
                   >Home</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-sm-2 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./gallery.html"
@@ -57,7 +63,7 @@
                 >
               </li>
 
-              <li class="nav-item header__nav__ul__li__a col-sm-2 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat active"
                   aria-current="page"
@@ -65,14 +71,14 @@
                   >Profiles</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-sm-2 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./about_us.html"
                   >About us</a
                 >
               </li>
-              <li class="nav-item header__nav__ul__li__a col-sm-2 col-lg-8">
+              <li class="nav-item header__nav__ul__li__a col-md-4 col-lg-8">
                 <a
                   class="nav-link header__nav__ul__li__a--linkFormat"
                   href="./contact.html"
@@ -85,7 +91,14 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Spinner -->
+      <div class="preloader">
+        <div class="spinner-grow text-primary">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer--format">
       <a href="#headerHeaven" class="footer__a--linkFormat">Go to heaven</a>
@@ -96,5 +109,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <!-- Script Spinner -->
+    <script src="../scripts/main.js"></script>
   </body>
 </html>

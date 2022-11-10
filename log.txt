@@ -1,3 +1,9 @@
+commit 6e13efd89bf0ede164ffe38edf64b48937e93fa0
+Author: tincho-sudo <martin8803@gmail.com>
+Date:   Wed Nov 9 20:37:46 2022 -0300
+
+    as requested, git commit log is now included
+
 commit 1829a6b2f1d357c7a9120dacf7438c4a7cd7056b
 Author: tincho-sudo <62819585+tincho-sudo@users.noreply.github.com>
 Date:   Wed Nov 9 20:35:10 2022 -0300

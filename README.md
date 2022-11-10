@@ -7,3 +7,5 @@ Esto de tener que adaptar el html viejo conforme nos van habilitando herramienta
 Github no estaba tomando un rename de carpeta, asi que tuve que moverlas a mano desde la pagina, nada mas raro aparte de eso
 
 El logo (LCG) corresponde a "Lol Champion Gallery"
+
+Agrego tambien el log de los commits que se solicita (log.txt)
